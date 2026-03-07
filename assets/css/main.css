@@ -73,13 +73,7 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* Tamaño circulos */
-.icono-servicio img {
-  width: 120px;   /* ajusta al diámetro del círculo */
-  height: 120px;  /* asegura proporción cuadrada */
-  object-fit: contain; /* mantiene proporciones dentro del cuadro */
-  border-radius: 50%;  /* opcional: fuerza forma circular */
-}
+
 
 /* Basic */
 
@@ -3792,3 +3786,16 @@ input, select, textarea {
 			}
 
 		}
+
+/* Tamaño circulos */
+
+.icon.major:before {
+  content: none !important;
+}
+
+.icono-servicio img {
+  width: 120px;   /* ajusta al diámetro del círculo */
+  height: 120px;  /* asegura proporción cuadrada */
+  object-fit: contain; /* mantiene proporciones dentro del cuadro */
+  border-radius: 50%;  /* opcional: fuerza forma circular */
+}
