@@ -3880,25 +3880,9 @@ html, body {
   font-size: 20px; /* antes suele estar en 14px o 16px */
 }
 
-/* Separar logo principal */
-.logo-principal {
-    width: 220px;        /* tamaño fijo */
-    height: auto;        /* mantiene proporción */
-    object-fit: contain;
-    border-radius: 0;    
-    display: block;
-    margin: 0 auto;      
-}
-
-#header .logo img.logo-principal {
-    border-radius: 0 !important;
-    width: 220px !important;   /* fuerza el ancho */
-    height: auto !important;   /* mantiene proporción */
-}
-
 /* Logo principal grande y centrado */
 .logo-principal {
-    width: 280px;          /* aumenta el tamaño, ajusta según prefieras */
+    width: 280px;          /* aumenta el tamaño */
     height: auto;          /* mantiene proporción */
     object-fit: contain;
     display: block;
@@ -3914,5 +3898,11 @@ html, body {
     margin: 0 auto !important; /* asegura centrado */
 }
 
+
+/* Fondo más oscuro y tecnológico */
+body {
+    background: linear-gradient(135deg, #0a0f2c, #0d1b4c, #102a6d);
+    color: #ffffff; /* asegura contraste del texto */
+}
 
 
