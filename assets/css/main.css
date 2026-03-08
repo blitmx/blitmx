@@ -3896,5 +3896,23 @@ html, body {
     height: auto !important;   /* mantiene proporción */
 }
 
+/* Logo principal grande y centrado */
+.logo-principal {
+    width: 280px;          /* aumenta el tamaño, ajusta según prefieras */
+    height: auto;          /* mantiene proporción */
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;        /* centra horizontalmente */
+    border-radius: 0;      /* evita círculo */
+}
+
+#header .logo img.logo-principal {
+    width: 280px !important;   /* fuerza el tamaño */
+    height: auto !important;
+    border-radius: 0 !important;
+    display: block;
+    margin: 0 auto !important; /* asegura centrado */
+}
+
 
 
