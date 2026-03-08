@@ -3862,6 +3862,18 @@ input, select, textarea {
   color: #333;            /* asegura que títulos y párrafos sean visibles */
 }
 
+/* Ajustar logos de empresas */
+.aliados img {
+    width: 140px;          /* ajusta según tu diseño */
+    height: auto;          /* mantiene proporción */
+    object-fit: contain;   /* evita deformaciones */
+    border-radius: 0 !important;  /* elimina círculo */
+    background: transparent !important; /* quita fondo blanco */
+    padding: 0;            /* elimina espacio extra */
+    display: inline-block;
+    vertical-align: middle;
+}
+
 
 /* Aumentar tamaño letra */
 html, body {
