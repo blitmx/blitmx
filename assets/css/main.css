@@ -3846,4 +3846,8 @@ input, select, textarea {
 }
 
 
+html, body {
+  font-size: 20px; /* antes suele estar en 14px o 16px */
+}
+
 
