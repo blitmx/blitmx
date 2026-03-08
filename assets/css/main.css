@@ -3878,5 +3878,13 @@ html, body {
   border-radius: 0; /* evita que se vuelva circular */
   display: block;
   margin: 0 auto;   /* centra el logo */
+}
+
+#header .logo img {
+  border-radius: 0 !important;
+  width: auto !important;
+  height: auto !important;
+}
+
 
 
