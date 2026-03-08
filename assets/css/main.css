@@ -3852,11 +3852,24 @@ input, select, textarea {
   100% { transform: translateX(-50%); }
 }
 
+.empresas-section {
+  background: #fff;       /* fondo blanco */
+  padding: 60px 20px;
+  text-align: center;
+  color: #333;            /* texto oscuro */
+}
+
+.empresas-section h2,
+.empresas-section p {
+  color: #333;            /* asegura que títulos y párrafos sean visibles */
+}
 
 
+/* Aumentar tamaño letra */
 html, body {
   font-size: 20px; /* antes suele estar en 14px o 16px */
 }
+
 
 
 
