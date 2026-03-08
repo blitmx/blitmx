@@ -3806,24 +3806,31 @@ input, select, textarea {
   object-fit: cover;       /* llena todo el círculo */
 }
 
+/* Sección empresas */
+
+.empresas-section {
+  background: #fff;          /* fondo blanco */
+  padding: 60px 20px;
+  text-align: center;
+}
+
 .logo-carousel {
   overflow: hidden;
   position: relative;
   width: 100%;
-  background: #fff;
-  padding: 20px 0;
+  margin-top: 40px;
 }
 
 .logos-track {
   display: flex;
-  width: calc(200%); /* doble para efecto infinito */
-  animation: scroll 20s linear infinite;
+  width: calc(200%);         /* doble ancho para efecto infinito */
+  animation: scroll 25s linear infinite;
 }
 
 .logo {
   flex: 0 0 auto;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   margin: 0 20px;
   border-radius: 50%;
   overflow: hidden;
@@ -3846,8 +3853,10 @@ input, select, textarea {
 }
 
 
+
 html, body {
   font-size: 20px; /* antes suele estar en 14px o 16px */
 }
+
 
 
