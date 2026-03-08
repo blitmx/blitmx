@@ -3870,6 +3870,13 @@ html, body {
   font-size: 20px; /* antes suele estar en 14px o 16px */
 }
 
-
+/* Separar logo principal */
+.logo-principal {
+  width: 220px;     /* ajusta según lo que quieras */
+  height: auto;     /* mantiene proporción original */
+  object-fit: contain;
+  border-radius: 0; /* evita que se vuelva circular */
+  display: block;
+  margin: 0 auto;   /* centra el logo */
 
 
