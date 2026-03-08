@@ -3870,18 +3870,19 @@ html, body {
 
 /* Separar logo principal */
 .logo-principal {
-  width: 220px;     /* ajusta según lo que quieras */
-  height: auto;     /* mantiene proporción original */
-  object-fit: contain;
-  border-radius: 0; /* evita que se vuelva circular */
-  display: block;
-  margin: 0 auto;   /* centra el logo */
+    width: 220px;        /* tamaño fijo */
+    height: auto;        /* mantiene proporción */
+    object-fit: contain;
+    border-radius: 0;    
+    display: block;
+    margin: 0 auto;      
 }
 
 #header .logo img.logo-principal {
-  border-radius: 0 !important;
-  width: auto !important;
-  height: auto !important;
+    border-radius: 0 !important;
+    width: 220px !important;   /* fuerza el ancho */
+    height: auto !important;   /* mantiene proporción */
 }
+
 
 
