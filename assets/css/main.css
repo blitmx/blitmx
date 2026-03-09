@@ -3880,6 +3880,15 @@ html, body {
   font-size: 20px; /* antes suele estar en 14px o 16px */
 }
 
+
+
+
+/* Fondo más oscuro y tecnológico */
+body {
+    background: linear-gradient(135deg, #0a0f2c, #0d1b4c, #102a6d);
+    color: #ffffff; /* asegura contraste del texto */
+}
+
 /* Logo principal grande y centrado */
 .logo-principal {
     width: 280px;          /* aumenta el tamaño */
@@ -3898,11 +3907,10 @@ html, body {
     margin: 0 auto !important; /* asegura centrado */
 }
 
-
-/* Fondo más oscuro y tecnológico */
-body {
-    background: linear-gradient(135deg, #0a0f2c, #0d1b4c, #102a6d);
-    color: #ffffff; /* asegura contraste del texto */
+#header {
+    background: linear-gradient(135deg, rgba(10,15,44,0.8), rgba(16,42,109,0.8)),
+                url("ruta/3e2897cd9215be43f51c912e8cf902a8.jpg");
+    background-size: cover;
+    background-position: center;
 }
-
 
